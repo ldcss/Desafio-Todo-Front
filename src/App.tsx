@@ -1,10 +1,15 @@
-import './App.css';
+import { CssBaseline, ThemeProvider } from '@mui/material';
+import theme from './theme';
+import RoutesUrl from './routes';
 
 function App() {
   return (
-    <div className='App'>
-      <p>Hello World</p>
-    </div>
+    <>
+      <ThemeProvider theme={theme}>
+        <RoutesUrl />
+      </ThemeProvider>
+      <CssBaseline />
+    </>
   );
 }
 

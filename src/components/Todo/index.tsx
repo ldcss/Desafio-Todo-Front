@@ -53,7 +53,7 @@ function Todo() {
       <Modal open={open} onClose={() => setOpen(false)}>
         <Grow in={open} {...(open ? { timeout: 500 } : {})}>
           <CardType>
-            <TodoDetails task={openTask} />
+            <TodoDetails task={openTask} handleOpen={() => setOpen(false)} />
           </CardType>
         </Grow>
       </Modal>

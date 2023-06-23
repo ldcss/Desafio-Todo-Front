@@ -1,11 +1,17 @@
-import Todo from '../../components/Todo';
-import { Container } from './style';
+import { Grid } from '@mui/material';
+import Menu from '../../components/Menu';
 
 function Home() {
   return (
-    <Container>
-      <Todo />
-    </Container>
+    <Grid
+      container
+      flexDirection={'column'}
+      justifyContent={'center'}
+      alignItems={'center'}
+      style={{ width: '100%', height: '100%' }}
+    >
+      <Menu />
+    </Grid>
   );
 }
 

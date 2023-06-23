@@ -1,3 +1,4 @@
+import { Grid } from '@mui/material';
 import Footer from '../Footer';
 import Navbar from '../Navbar';
 import { Container, Main } from './style';

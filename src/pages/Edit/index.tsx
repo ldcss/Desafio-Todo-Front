@@ -1,4 +1,4 @@
-import { Paper } from '@mui/material';
+import { Paper, Typography } from '@mui/material';
 import { FormContainer } from './style';
 
 function Edit() {
@@ -14,7 +14,7 @@ function Edit() {
         flexDirection: 'column',
       }}
     >
-      <h1>EDIÇÃO DE TASKS</h1>
+      <Typography>EDIÇÃO DE TASKS</Typography>
       <FormContainer></FormContainer>
     </Paper>
   );

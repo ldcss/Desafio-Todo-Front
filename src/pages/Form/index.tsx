@@ -7,6 +7,7 @@ import {
   Select,
   SelectChangeEvent,
   TextField,
+  Typography,
 } from '@mui/material';
 import { FormComponent, Container } from './style';
 import { ChangeEvent, FormEvent, useState } from 'react';
@@ -41,7 +42,7 @@ function Form() {
   return (
     <Container>
       <ToastContainer position='top-right' />
-      <h1>Cadastro de task</h1>
+      <Typography>Cadastro de task</Typography>
       <FormComponent onSubmit={submit}>
         <div
           style={{

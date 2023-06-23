@@ -1,7 +1,9 @@
 import styled from 'styled-components';
 
 const Nav = styled.div`
-  display: sticky;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
 `;
 
 export const Menu = styled.nav`

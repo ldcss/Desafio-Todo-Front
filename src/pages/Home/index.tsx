@@ -1,5 +1,12 @@
+import Todo from '../../components/Todo';
+import { Container } from './style';
+
 function Home() {
-  return <div style={{ height: '100%' }}>Teste</div>;
+  return (
+    <Container>
+      <Todo />
+    </Container>
+  );
 }
 
 export default Home;

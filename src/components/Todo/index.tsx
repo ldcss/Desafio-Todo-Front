@@ -4,7 +4,7 @@ import { CardType, FlexContainer, Item } from './style';
 import { TaskService } from '../../services/TaskService';
 import { toast } from 'react-toastify';
 import { TaskDto } from '../../types/Task';
-import { Grow, Modal } from '@mui/material';
+import { Grid, Grow, Modal } from '@mui/material';
 import TodoDetails from '../TodoDetails';
 
 function Todo() {
@@ -25,7 +25,13 @@ function Todo() {
   }, []);
 
   return (
-    <>
+    <Grid
+      container
+      flexDirection={'column'}
+      justifyContent={'center'}
+      alignItems={'center'}
+      style={{ width: '100%', height: '100%' }}
+    >
       <ul>
         {tasks.map(task => (
           <>
@@ -57,7 +63,7 @@ function Todo() {
           </CardType>
         </Grow>
       </Modal>
-    </>
+    </Grid>
   );
 }
 

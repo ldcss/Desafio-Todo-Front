@@ -30,6 +30,7 @@
   },
   "plugins": ["react", "prettier", "@typescript-eslint", "react-hooks", "import"],
   "rules": {
+    "import/named": "off",
     "react/require-default-props": "off",
     "object-curly-newline": ["off"],
     "implicit-arrow-linebreak": ["off"],

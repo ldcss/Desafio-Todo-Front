@@ -1,6 +1,9 @@
 import styled from 'styled-components';
 
 export const FooterContainer = styled.div`
+  position: sticky;
+  bottom: 0;
+  z-index: -9999;
   background-color: #222;
   color: #fff;
   padding: 3em;

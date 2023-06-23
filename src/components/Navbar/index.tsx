@@ -8,11 +8,11 @@ function Navbar() {
         <Link to='/'>
           <h1>To-do</h1>
         </Link>
-        <Link to='/form'>
-          <p>Cadastrar</p>
-        </Link>
         <Link to='/edit'>
           <p>Editar</p>
+        </Link>
+        <Link to='/form'>
+          <p>Cadastrar</p>
         </Link>
       </Menu>
     </Nav>

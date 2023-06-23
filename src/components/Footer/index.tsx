@@ -7,17 +7,17 @@ function Footer() {
       <IconsContainer>
         <IconsItems>
           <a href='https://gitlab.cin.ufpe.br/ldcs'>
-            <FaGitlab />
+            <FaGitlab style={{ color: '#f7f7f7' }} />
           </a>
         </IconsItems>
         <IconsItems>
           <a href='github.com/ldcss'>
-            <FaGithubSquare />
+            <FaGithubSquare style={{ color: '#f7f7f7' }} />
           </a>
         </IconsItems>
         <IconsItems>
           <a href='https://www.linkedin.com/in/lucas-dcs/'>
-            <FaLinkedin />
+            <FaLinkedin style={{ color: '#f7f7f7' }} />
           </a>
         </IconsItems>
       </IconsContainer>

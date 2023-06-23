@@ -36,7 +36,6 @@ function Form() {
 
   function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    console.log('task', task);
     postTask();
   }
   return (

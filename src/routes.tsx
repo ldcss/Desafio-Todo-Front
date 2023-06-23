@@ -1,8 +1,8 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Page from './components/Page';
-import Form from './pages/Form';
-import Edit from './pages/Edit';
+import Form from './pages/Form/';
+// import Edit from './pages/Edit';
 
 function RoutesUrl() {
   return (
@@ -21,14 +21,6 @@ function RoutesUrl() {
           element={
             <Page>
               <Form />
-            </Page>
-          }
-        />
-        <Route
-          path={'/edit'}
-          element={
-            <Page>
-              <Edit />
             </Page>
           }
         />

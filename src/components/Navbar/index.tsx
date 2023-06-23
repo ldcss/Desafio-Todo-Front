@@ -1,3 +1,4 @@
+import { Typography } from '@mui/material';
 import Nav, { Menu } from './style';
 import { Link } from 'react-router-dom';
 
@@ -6,13 +7,19 @@ function Navbar() {
     <Nav>
       <Menu>
         <Link to='/'>
-          <h1>To-do</h1>
+          <Typography>To-do</Typography>
         </Link>
         <Link to='/edit'>
-          <p>Editar</p>
+          <Typography variant='subtitle2'>Editar Tasks</Typography>
         </Link>
         <Link to='/form'>
-          <p>Cadastrar</p>
+          <Typography variant='subtitle2'>Cadastrar Tasks</Typography>
+        </Link>
+        <Link to='/form'>
+          <Typography variant='subtitle2'>Editar Membros</Typography>
+        </Link>
+        <Link to='/form'>
+          <Typography variant='subtitle2'>Cadastrar Membros</Typography>
         </Link>
       </Menu>
     </Nav>

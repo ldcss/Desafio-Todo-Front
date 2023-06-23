@@ -46,7 +46,7 @@ export const CardType = styled(Card)({
   justifyContent: 'initial',
   alignItems: 'center',
   position: 'fixed',
-  padding: '0em 2em 0em 2em',
+  padding: '0px',
   border: 'none',
   borderRadius: '5px',
   color: '#000000',
